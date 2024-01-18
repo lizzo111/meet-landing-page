@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #fafafa;
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left {
+  transform: translateX(-8px);
+}
+
+.hero-right {
+  transform: translateX(32px);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 32px;
+}
+
+.button-container {
+  display: flex;
+}
+
+h1 {
+  width: 445px;
+  color: #28283d;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+}
+
+.text-container p {
+  width: 540px;
+  color: #87879d;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+button {
+  height: 58px;
+  border-radius: 29px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blue-button {
+  width: 193px;
+  background: #4d96a9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
+
+.blue-button span {
+  color: #8fe3f9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.blue-button:hover {
+  background-color: #71c0d4;
+}
+
+.purple-button {
+  width: 139px;
+  background: #855fb1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.purple-button:hover,
+.footer button:hover {
+  background-color: #b18bdd;
+}
+
+.button-container {
+  gap: 16px;
+}
+
+.stage1 {
+  margin: 117px 0px 64px 0px;
+}
+
+.stage1,
+.stage2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.stage2 {
+  margin-top: 72px;
+}
+
+.line {
+  width: 1px;
+  height: 84px;
+  background-color: #87879d;
+  opacity: 0.25;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #87879d;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
+
+.meetings {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.meetings img {
+  width: 268px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.description span {
+  margin-bottom: 16px;
+  color: #4d96a9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.description h2 {
+  width: 445px;
+  color: #28283d;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  margin-bottom: 32px;
+}
+
+.description p {
+  width: 540px;
+  color: #87879d;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.footer {
+  width: 100%;
+  height: 308px;
+  background-size: cover;
+  background-image: url(./desktop/image-footer.jpg);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  width: 350px;
+  color: #fafafa;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  margin-left: 165px;
+  margin-right: 125px;
+}
+
+.footer p {
+  width: 350px;
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 92px;
+}
+
+.footer button {
+  width: 193px;
+  height: 58px;
+  border-radius: 29px;
+  background: #855fb1;
+  color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  margin-right: 165px;
+}
+
+.footer span {
+  color: #d9b8ff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
